@@ -21,6 +21,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 body{
     font-family: 'Roboto', sans-serif;
@@ -107,7 +110,7 @@ a{
     background-color: transparent;
 }
 .navbar__logo img{
-    width: 60%;
+    width: 70%;
 }
 .nav__items{
     list-style: none;
@@ -526,7 +529,7 @@ a{
         width: 100%;
     }
     .col-3{
-        flex-basis: 100%;
+        flex-basis: 80%;
     }
 
     /* possibilies */
